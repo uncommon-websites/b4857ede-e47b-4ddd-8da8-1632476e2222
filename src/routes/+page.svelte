@@ -7,19 +7,52 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Run your business from your phone"
+  subtitle="Commerce Systems gives small businesses one place to manage sales, orders, and inventory—so you can stay in control wherever you are."
+  customers={[
+    {
+      name: "Lucy Nguyen",
+      position: "Owner, Lucy's Flower House",
+      imageSrc: "/generated/image-a-female-small-business-owner-smiling-wa.webp"
+    },
+    {
+      name: "James Patel",
+      position: "Chef & Owner, Golden Table Bistro",
+      imageSrc: "/generated/image-a-male-restaurant-owner-standing-confide.webp"
+    },
+    {
+      name: "Maria Lopez",
+      position: "Baker, La Dulce Vida",
+      imageSrc: "/generated/image-a-middle-aged-woman-behind-the-counter-o.webp"
+    },
+    {
+      name: "Tom O'Reilly",
+      position: "Owner, O'Reilly Hardware",
+      imageSrc: "/generated/image-a-male-hardware-store-owner-in-a-work-ap.webp"
+    },
+    {
+      name: "Ava Carter",
+      position: "Manager, Brew Crew Café",
+      imageSrc: "/generated/image-a-female-caf-manager-standing-cheerfully.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/shopify.com',
+		'https://logo.clearbit.com/squareup.com',
+		'https://logo.clearbit.com/etsy.com',
+		'https://logo.clearbit.com/bigcommerce.com'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
