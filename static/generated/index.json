@@ -18,5 +18,77 @@
   {
     "prompt": "A female café manager standing cheerfully by a coffee machine. The café has a relaxed ambiance with comfortable seating and soft music playing in the background. The manager is dressed in a casual yet neat outfit, contributing to the inviting atmosphere.",
     "filename": "/generated/image-a-female-caf-manager-standing-cheerfully.webp"
+  },
+  {
+    "prompt": "A woman in a flower shop surrounded by a variety of colorful bouquets, holding a bouquet of flowers and smiling warmly. The shop is filled with natural light and has a rustic charm with wooden shelves and pots.",
+    "filename": "/generated/image-a-woman-in-a-flower-shop-surrounded-by-a.webp"
+  },
+  {
+    "prompt": "A man behind a bakery counter, rolling dough with a focused expression. The bakery is cozy, with freshly baked bread and pastries displayed around him, and a warm, inviting atmosphere.",
+    "filename": "/generated/image-a-man-behind-a-bakery-counter-rolling-do.webp"
+  },
+  {
+    "prompt": "A woman in an arts and crafts store organizing products behind a small checkout desk. The store is vibrant and colorful, with various art supplies and handmade crafts displayed, creating a creative and inspiring environment.",
+    "filename": "/generated/image-a-woman-in-an-arts-and-crafts-store-orga.webp"
+  },
+  {
+    "prompt": "A small business owner is joyfully organizing products on wooden shelves in a quaint store. The store has a warm and inviting atmosphere with vintage decor. The owner is smiling, interacting with customers, surrounded by neatly arranged goods.",
+    "filename": "/generated/image-a-small-business-owner-is-joyfully-organ.webp"
+  },
+  {
+    "prompt": "A friendly courier is delivering packages to delighted customers on a bustling city street. The urban environment features charming storefronts and greenery, with people walking by, creating a lively and welcoming scene.",
+    "filename": "/generated/image-a-friendly-courier-is-delivering-package.webp"
+  },
+  {
+    "prompt": "In a cozy shop with rustic wooden interiors, a shopkeeper is handing a beautifully wrapped gift to a cheerful customer. The shop is filled with unique, handcrafted items, and the atmosphere is warm and inviting.",
+    "filename": "/generated/image-in-a-cozy-shop-with-rustic-wooden-interi.webp"
+  },
+  {
+    "prompt": "A headshot of a friendly small business founder, wearing casual attire, set in a practical office environment. The background showcases a warm, inviting office space with a wooden desk, a few potted plants, and a window letting in natural light, adding a sense of openness and comfort.",
+    "filename": "/generated/image-a-headshot-of-a-friendly-small-business-.webp"
+  },
+  {
+    "prompt": "A small business team collaborating in a bright, modern office. The room is filled with natural light pouring through large windows, casting a warm glow on the diverse group of people. They are engaged in lively discussions, with some team members standing and others sitting around a minimalist wooden table. The atmosphere is optimistic and bustling, with a mix of casual and professional attire. Indoor plants add a touch of greenery, and there are coffee mugs and notebooks scattered across the table, enhancing the lively ambiance.",
+    "filename": "/generated/image-a-small-business-team-collaborating-in-a.webp"
+  },
+  {
+    "prompt": "A friendly business founder poses for a headshot, with a simple and natural background. The lighting is soft and natural, highlighting their approachable demeanor. The founder is dressed in business casual attire, exuding confidence and warmth.",
+    "filename": "/generated/image-a-friendly-business-founder-poses-for-a-.webp"
+  },
+  {
+    "prompt": "A friendly small business owner with a warm smile standing in a cozy, inviting shop environment. The shop is filled with natural light streaming through large windows, casting soft shadows and highlighting the vibrant colors of various products neatly arranged on wooden shelves. The owner is dressed in casual, comfortable attire, exuding a welcoming and approachable aura. The ambiance is relaxed, with potted plants adding a touch of greenery to the space.",
+    "filename": "/generated/image-a-friendly-small-business-owner-with-a-w.webp"
+  },
+  {
+    "prompt": "A diverse group of small business team members collaborating in a bright, modern office. The room is filled with natural light from large windows, and the team is engaged in a lively discussion around a wooden table. Each person is dressed in smart casual attire, and there are plants in the background adding a touch of greenery to the vibrant environment.",
+    "filename": "/generated/image-a-diverse-group-of-small-business-team-m.webp"
+  },
+  {
+    "prompt": "A professional Latina engineering manager is smiling warmly as she stands in a collaborative office environment. The office is filled with natural light, and colleagues can be seen in the background engaged in work and discussions, adding to the lively atmosphere.",
+    "filename": "/generated/image-a-professional-latina-engineering-manage.webp"
+  },
+  {
+    "prompt": "An African American male marketing specialist is portrayed in a cheerful mood, seated at a modern office desk. The office is designed with contemporary furniture, and diverse team members are visible in the background, interacting and working together harmoniously.",
+    "filename": "/generated/image-an-african-american-male-marketing-speci.webp"
+  },
+  {
+    "prompt": "An East Asian woman, a junior designer, is in a friendly workspace, casually dressed and appearing approachable. The office is open-plan with creative elements like plants and artwork, and other designers are seen in the background, contributing to a collaborative and vibrant work setting.",
+    "filename": "/generated/image-an-east-asian-woman-a-junior-designer-is.webp"
+  },
+  {
+    "prompt": "A cheerful small business owner standing behind the counter of a cozy, well-lit store. The store is filled with neatly arranged products on wooden shelves, creating a warm and inviting atmosphere. The owner, wearing casual attire, is engaged with a customer, displaying a friendly and welcoming demeanor.",
+    "filename": "/generated/image-a-cheerful-small-business-owner-standing.webp"
+  },
+  {
+    "prompt": "A professional headshot of an African American man in a cozy bookstore environment, with bookshelves in the background and natural lighting illuminating his face, creating a warm and inviting atmosphere.",
+    "filename": "/generated/image-a-professional-headshot-of-an-african-am.webp"
+  },
+  {
+    "prompt": "A professional headshot of a South Asian woman in a plant and craft shop, surrounded by greenery and handmade items, with warm lighting creating a welcoming workspace vibe.",
+    "filename": "/generated/image-a-professional-headshot-of-a-south-asian.webp"
+  },
+  {
+    "prompt": "A professional headshot of a Latino man in a hardware supply store, with tools and materials subtly visible in the background, under business-like lighting to emphasize professionalism.",
+    "filename": "/generated/image-a-professional-headshot-of-a-latino-man-.webp"
   }
 ]

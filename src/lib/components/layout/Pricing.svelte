@@ -35,132 +35,143 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Simple pricing for small businesses",
+		subtitle = "Transparent plans with the tools you need to run and grow your business",
+		tierNames = ["Starter", "Growth", "Pro"],
 		features = [
 			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
+				name: "User accounts",
 				tiers: {
 					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					Growth: "2",
+					Pro: "5"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Inventory item limit",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
+					Starter: "Up to 50 items",
+					Growth: "Up to 500 items",
+					Pro: "Unlimited"
 				}
 			},
 			{
-				name: "API access",
+				name: "Invoicing features",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
+					Starter: "Basic invoices",
+					Growth: "Recurring invoices",
+					Pro: "Recurring + payment links"
 				}
 			},
 			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
+				name: "Online store integration",
 				tiers: {
 					Starter: false,
-					Pro: false,
-					Enterprise: true
+					Growth: "1 store",
+					Pro: "Multi-store support"
 				}
 			},
 			{
-				name: "SLA",
+				name: "Analytics & reporting",
+				tiers: {
+					Starter: "Basic sales summary",
+					Growth: "Sales trends & item performance",
+					Pro: "Advanced dashboards"
+				}
+			},
+			{
+				name: "Multi-location management",
 				tiers: {
 					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Growth: false,
+					Pro: true
+				}
+			},
+			{
+				name: "Customer support",
+				tiers: {
+					Starter: "Email only",
+					Growth: "Email + priority queue",
+					Pro: "Priority support"
+				}
+			},
+			{
+				name: "Connect Stripe & PayPal",
+				tiers: {
+					Starter: false,
+					Growth: "Stripe only",
+					Pro: "Stripe & PayPal"
+				}
+			},
+			{
+				name: "Export sales data",
+				tiers: {
+					Starter: false,
+					Growth: "Included (CSV)",
+					Pro: "Included (CSV & XLSX)"
+				}
+			},
+			{
+				name: "Onboarding guidance",
+				tiers: {
+					Starter: "Self-serve help center",
+					Growth: "Live chat for setup",
+					Pro: "1:1 expert onboarding"
 				}
 			}
 		],
 		tiers = [
 			{
 				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				monthlyPrice: 0,
+				yearlyPrice: 0,
+				description: "Essential features to help you get started",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"1 user account",
+					"Up to 50 inventory items",
+					"Basic invoices",
+					"Basic sales summary",
+					"Email support"
 				],
 				cta: {
-					label: "Get started",
+					label: "Try free",
 					href: "/signup?plan=starter"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Growth",
+				monthlyPrice: 29,
+				yearlyPrice: 23, // 20% savings
+				description: "Advanced tools as your business grows",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"2 users",
+					"Up to 500 inventory items",
+					"Recurring invoices",
+					"Sales trends & performance reports",
+					"Online store integration (1)",
+					"Export sales data (CSV)",
+					"Priority email support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Start 14-day trial",
+					href: "/signup?plan=growth"
 				},
 				highlight: true
 			},
 			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				name: "Pro",
+				monthlyPrice: 79,
+				yearlyPrice: 63, // 20% savings
+				description: "Everything a busy storefront or team needs",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"5 users",
+					"Unlimited inventory items",
+					"Recurring invoices + payment links",
+					"Advanced dashboards",
+					"Multi-store support",
+					"Export sales data (CSV & XLSX)",
+					"Stripe & PayPal integration",
+					"1:1 onboarding & priority support"
 				],
 				cta: {
 					label: "Contact sales",
@@ -168,7 +179,7 @@ Please update features according to the company's product offering. Do not remov
 				}
 			}
 		]
-	}: {
+	}:
 		title?: string;
 		subtitle?: string;
 		tiers?: PricingTier[];

@@ -53,106 +53,109 @@
 />
 
 <Summary
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+  title="What we do"
+  text="Commerce Systems helps small businesses manage sales, orders, and inventory from their phone. Our mobile app puts essential commerce tools in one place, so you can stay organized and in control—wherever you work."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Lina Worthington",
+			position: "Manager",
+			company: "Little Bloom Flower Shop",
+			quote: "We used to manually track inventory with notebooks—it took forever and mistakes were constant. With Commerce Systems, we saved at least 5 hours a week and stopped running out of bestseller items.",
+			image: "/generated/image-a-woman-in-a-flower-shop-surrounded-by-a.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Raul Crespo",
+			position: "Owner",
+			company: "Panaderia Crespo",
+			quote: "Before, we missed online orders and had no clear system. Now every transaction is logged, and errors dropped by 80%. Commerce Systems gave us the visibility we needed.",
+			image: "/generated/image-a-man-behind-a-bakery-counter-rolling-do.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Dana Bhuiyan",
+			position: "Co-founder",
+			company: "Canvas Studio & Supply",
+			quote: "Switching to Commerce Systems cut our payment processing fees by 20% and eliminated the need for extra POS hardware. The money we save goes straight back into the business.",
+			image: "/generated/image-a-woman-in-an-arts-and-crafts-store-orga.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Do more with less busywork"
+	subtitle="The essential tools for small business commerce, all in one place."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Easy order management",
+			description: "Create and track orders in seconds, no paperwork required."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Inventory tracking",
+			description: "Monitor stock levels in real time and avoid running out."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Payment processing",
+			description: "Accept card and contactless payments without extra hardware."
+		},
+		{
+			title: "Customer database",
+			description: "Keep customer details and purchase histories organized."
+		},
+		{
+			title: "On-the-go access",
+			description: "Manage your business from anywhere—shop, home, or the road."
+		},
+		{
+			title: "Real-time reporting",
+			description: "View sales and performance insights whenever you need them."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Simplify supplier reordering",
+			description: "Set automated restock alerts, send purchase orders, and track deliveries—without the back-and-forth emails.",
+			image: "/generated/image-a-small-business-owner-is-joyfully-organ.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/supplier-management",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Automate local delivery coordination",
+			description: "Keep track of drop-offs, notify buyers, and route drivers—in just a few taps.",
+			image: "/generated/image-a-friendly-courier-is-delivering-package.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/local-delivery-coordination",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Launch customer loyalty rewards",
+			description: "Reward repeat customers with points, perks, and easy redemption—no punch cards required.",
+			image: "/generated/image-in-a-cozy-shop-with-rustic-wooden-interi.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/customer-loyalty",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Take control of your business"
+  subtitle="Start saving hours every week—try Commerce Systems for free."
+  description="Our mobile app puts all your sales, inventory, and order tools in one place—so you can streamline operations and focus on what matters. No training, no hassle."
+  imageSrc="/generated/image-a-cheerful-small-business-owner-standing.webp"
+  callsToAction={[
+    { href: '/get-started', label: 'Start free trial', variant: 'primary' },
+    { href: '/learn-more', label: 'Learn more', variant: 'secondary' }
+  ]}
+/>

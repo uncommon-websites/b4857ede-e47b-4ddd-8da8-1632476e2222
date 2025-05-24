@@ -121,53 +121,59 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Isabella Martinez",
+    position: "Engineering Manager",
+    company: "Engineering Team",
+    quote:
+      "Commerce Systems feels like home. Our leaders actually listen, and I get to help shape an open, caring team. I can be myself every day.",
+    image: "/generated/image-a-professional-latina-engineering-manage.webp"
+  },
+  {
+    name: "Jamal Thompson",
+    position: "Marketing Specialist",
+    company: "Marketing Team",
+    quote:
+      "I've grown my career here faster than anywhere else. There are constant chances to learn new skills, and my manager is always encouraging me to stretch further.",
+    image: "/generated/image-an-african-american-male-marketing-speci.webp"
+  },
+  {
+    name: "Yuna Kim",
+    position: "Junior Product Designer",
+    company: "Product Team",
+    quote:
+      "From day one, my teammates welcomed me and made it easy to ask questions. Collaboration is real here—everyone looks out for each other.",
+    image: "/generated/image-an-east-asian-woman-a-junior-designer-is.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Apply online",
+    description: "Send us your resume and a short note about why you want to join."
+  },
+  {
+    step: 2,
+    title: "Initial call",
+    description: "A 20-minute conversation to see if there’s a fit and answer your questions."
+  },
+  {
+    step: 3,
+    title: "Practical challenge",
+    description: "Show your skills with a short, relevant task that reflects real work."
+  },
+  {
+    step: 4,
+    title: "Meet the team",
+    description: "Chat with several team members and get to know our culture."
+  },
+  {
+    step: 5,
+    title: "Offer & feedback",
+    description: "Get your offer quickly, along with honest feedback at every step."
+  }
+];
 
 	const values = [
 		{
@@ -191,8 +197,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Build the future of small business"
+	subtitle="Grow your career on a collaborative team shaping modern commerce"
+	imageSrc="/generated/image-a-diverse-group-of-small-business-team-m.webp"
 />
 
 <!-- Why Join Us Section -->
