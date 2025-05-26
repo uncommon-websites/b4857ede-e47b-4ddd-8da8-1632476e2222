@@ -13,7 +13,7 @@
 <CustomerCardHero
   centered={true}
   title="Run your business from your phone"
-  subtitle="Commerce Systems gives small businesses one place to manage sales, orders, and inventory—so you can stay in control wherever you are."
+  subtitle="hi"
   customers={[
     {
       name: "Lucy Nguyen",
